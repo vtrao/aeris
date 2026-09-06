@@ -1,5 +1,6 @@
 import React from "react";
 import DemoStepper from "@/components/DemoStepper";
+import ChatAssistant from "@/components/chat-assistant";
 import { 
   Wind, 
   ShieldCheck, 
@@ -113,6 +114,9 @@ export default function Home() {
       <footer className="mt-12 py-6 border-t border-slate-800 text-center text-xs text-slate-500">
         Aeris Renewables &bull; DevRev Revenue Protection Agent Prototype &bull; Designed for Vercel Deployment
       </footer>
+
+      {/* Interactive AI Assistant Drawer Component */}
+      <ChatAssistant />
     </main>
   );
 }
